@@ -12,5 +12,5 @@ URL = 'http://archive.ics.uci.edu/ml/machine-learning-databases/00228/smsspamcol
 EXTRACT_DIR = "dataset"
 
 zip_path, _ = urllib.request.urlretrieve(URL)
-with zipfile.ZipFile(file + "/dataset/smsspamcollection.zip", "r") as f:
+with zipfile.ZipFile(file + "dataset/smsspamcollection.zip", "r") as f:
     f.extractall(EXTRACT_DIR)
