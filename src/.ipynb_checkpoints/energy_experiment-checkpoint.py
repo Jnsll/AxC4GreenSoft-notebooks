@@ -31,7 +31,6 @@ RESULTS_HEADER = [
     'algorithm',
     'RQ',
     'experiment_id',
-    'iteration',
     'no_datapoints',
     'no_features',
     'preprocessing_energy(J)',
