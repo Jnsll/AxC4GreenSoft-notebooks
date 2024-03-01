@@ -1,13 +1,4 @@
+ipywidgets
 numpy==1.20.2
-pandas==1.2.4
-nltk==3.6.1
 scipy
 matplotlib==3.4.1
-scikit-learn==0.24.1
-Flask==1.1.2
-flasgger
-codecarbon==1.2.0
-
-click==8.0.3
-
-tabulate
