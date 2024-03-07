@@ -1,6 +1,7 @@
 import math
 import matplotlib.pyplot as plt
 import sys
+import time
 
 def get_plot(values_cos):
     xs = [x for x in range(len(values_cos))]
@@ -22,4 +23,7 @@ def sync_cos_task(x):
 
 if __name__ == "__main__":
     #print(sys.argv[1])
+    #start = time.time()
     sync_cos_task(int(sys.argv[1]))
+    #end = time.time()
+    #print("Duration (s):", str(end-start))
